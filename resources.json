@@ -1,0 +1,155 @@
+[
+  {
+    "id": "isaac-sim-IsaacLab",
+    "title": "Isaac Lab",
+    "categories": [
+      "simulation",
+      "learning"
+    ],
+    "tags": [
+      "RL",
+      "Simulation",
+      "Isaac Sim"
+    ],
+    "description": "Framework for robot learning built on Isaac Sim, with environments and training integrations.",
+    "descriptionTh": "เฟรมเวิร์ก Robot Learning บน Isaac Sim พร้อม Environment และส่วนเชื่อมต่อการฝึก",
+    "source": "upstream",
+    "owner": "isaac-sim",
+    "url": "https://github.com/isaac-sim/IsaacLab",
+    "upstream": "https://github.com/isaac-sim/IsaacLab",
+    "license": "BSD-3-Clause",
+    "verifiedOn": "2026-10-10",
+    "key": "isaac-sim/IsaacLab"
+  },
+  {
+    "id": "unitreerobotics-unitree_rl_gym",
+    "title": "Unitree RL Gym",
+    "categories": [
+      "learning"
+    ],
+    "tags": [
+      "Unitree",
+      "RL",
+      "Isaac Gym"
+    ],
+    "description": "Reinforcement learning training examples for Unitree locomotion. Use the documented simulator and task versions.",
+    "descriptionTh": "ตัวอย่างฝึก Reinforcement Learning สำหรับการเดินของ Unitree ใช้เวอร์ชัน Simulator และ Task ตามเอกสาร",
+    "source": "upstream",
+    "owner": "unitreerobotics",
+    "url": "https://github.com/unitreerobotics/unitree_rl_gym",
+    "upstream": "https://github.com/unitreerobotics/unitree_rl_gym",
+    "license": "BSD-3-Clause",
+    "verifiedOn": "2026-10-10",
+    "key": "unitreerobotics/unitree_rl_gym"
+  },
+  {
+    "id": "leggedrobotics-rsl_rl",
+    "key": "leggedrobotics/rsl_rl",
+    "title": "RSL RL",
+    "description": "Learning-algorithm implementations used in robotics training workflows.",
+    "descriptionTh": "อัลกอริทึมการเรียนรู้สำหรับเวิร์กโฟลว์ฝึกหุ่นยนต์",
+    "categories": [
+      "learning"
+    ],
+    "tags": [
+      "RL",
+      "Training",
+      "Robotics"
+    ],
+    "source": "upstream",
+    "owner": "leggedrobotics",
+    "url": "https://github.com/leggedrobotics/rsl_rl",
+    "upstream": "https://github.com/leggedrobotics/rsl_rl",
+    "license": "NOASSERTION",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "leggedrobotics-legged_gym",
+    "key": "leggedrobotics/legged_gym",
+    "title": "Legged Gym",
+    "description": "Isaac Gym environments for legged-robot reinforcement learning.",
+    "descriptionTh": "Environment ของ Isaac Gym สำหรับ RL ของหุ่นยนต์มีขา",
+    "categories": [
+      "learning"
+    ],
+    "tags": [
+      "RL",
+      "Isaac Gym",
+      "Locomotion"
+    ],
+    "source": "upstream",
+    "owner": "leggedrobotics",
+    "url": "https://github.com/leggedrobotics/legged_gym",
+    "upstream": "https://github.com/leggedrobotics/legged_gym",
+    "license": "NOASSERTION",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "kscalelabs-ksim",
+    "key": "kscalelabs/ksim",
+    "title": "KSim",
+    "description": "MuJoCo / JAX reinforcement-learning tools for humanoid tasks.",
+    "descriptionTh": "เครื่องมือ RL บน MuJoCo / JAX สำหรับงาน Humanoid",
+    "categories": [
+      "learning"
+    ],
+    "tags": [
+      "Humanoid",
+      "MuJoCo",
+      "JAX",
+      "RL"
+    ],
+    "source": "upstream",
+    "owner": "kscalelabs",
+    "url": "https://github.com/kscalelabs/ksim",
+    "upstream": "https://github.com/kscalelabs/ksim",
+    "license": "MIT",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "ARISE-Initiative-robomimic",
+    "key": "ARISE-Initiative/robomimic",
+    "title": "robomimic",
+    "description": "Modular tools for learning robotic manipulation from demonstrations.",
+    "descriptionTh": "เครื่องมือแบบโมดูลสำหรับเรียนรู้ Manipulation จาก Demonstration",
+    "categories": [
+      "learning",
+      "manipulation",
+      "research"
+    ],
+    "tags": [
+      "Imitation learning",
+      "Demonstrations",
+      "Manipulation"
+    ],
+    "source": "upstream",
+    "owner": "ARISE-Initiative",
+    "url": "https://github.com/ARISE-Initiative/robomimic",
+    "upstream": "https://github.com/ARISE-Initiative/robomimic",
+    "license": "MIT",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "huggingface-lerobot",
+    "title": "LeRobot",
+    "categories": [
+      "learning",
+      "manipulation",
+      "datasets"
+    ],
+    "tags": [
+      "Imitation learning",
+      "Datasets",
+      "Python"
+    ],
+    "description": "Robot learning tools, datasets and policies. A supporting embodied AI resource; hardware support is project-specific.",
+    "descriptionTh": "เครื่องมือ Dataset และ Policy สำหรับ Robot Learning เป็นแหล่งข้อมูล Embodied AI ที่เกี่ยวข้อง การรองรับฮาร์ดแวร์ขึ้นกับโครงการ",
+    "source": "upstream",
+    "owner": "huggingface",
+    "url": "https://github.com/huggingface/lerobot",
+    "upstream": "https://github.com/huggingface/lerobot",
+    "license": "Apache-2.0",
+    "verifiedOn": "2026-10-10",
+    "key": "huggingface/lerobot"
+  }
+]
