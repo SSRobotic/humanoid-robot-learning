@@ -1,31 +1,10 @@
 [
   {
-    "id": "isaac-sim-IsaacLab",
-    "title": "Isaac Lab",
-    "categories": [
-      "simulation",
-      "learning"
-    ],
-    "tags": [
-      "RL",
-      "Simulation",
-      "Isaac Sim"
-    ],
-    "description": "Framework for robot learning built on Isaac Sim, with environments and training integrations.",
-    "descriptionTh": "เฟรมเวิร์ก Robot Learning บน Isaac Sim พร้อม Environment และส่วนเชื่อมต่อการฝึก",
-    "source": "upstream",
-    "owner": "isaac-sim",
-    "url": "https://github.com/isaac-sim/IsaacLab",
-    "upstream": "https://github.com/isaac-sim/IsaacLab",
-    "license": "BSD-3-Clause",
-    "verifiedOn": "2026-10-10",
-    "key": "isaac-sim/IsaacLab"
-  },
-  {
     "id": "unitreerobotics-unitree_rl_gym",
     "title": "Unitree RL Gym",
     "categories": [
-      "learning"
+      "learning",
+      "isaac"
     ],
     "tags": [
       "Unitree",
@@ -43,13 +22,60 @@
     "key": "unitreerobotics/unitree_rl_gym"
   },
   {
+    "id": "isaac-sim-IsaacLab",
+    "title": "Isaac Lab",
+    "categories": [
+      "simulation",
+      "learning",
+      "isaac"
+    ],
+    "tags": [
+      "RL",
+      "Simulation",
+      "Isaac Sim"
+    ],
+    "description": "Framework for robot learning built on Isaac Sim, with environments and training integrations.",
+    "descriptionTh": "เฟรมเวิร์ก Robot Learning บน Isaac Sim พร้อม Environment และส่วนเชื่อมต่อการฝึก",
+    "source": "upstream",
+    "owner": "isaac-sim",
+    "url": "https://github.com/isaac-sim/IsaacLab",
+    "upstream": "https://github.com/isaac-sim/IsaacLab",
+    "license": "BSD-3-Clause",
+    "verifiedOn": "2026-10-10",
+    "key": "isaac-sim/IsaacLab"
+  },
+  {
+    "id": "huggingface-lerobot",
+    "title": "LeRobot",
+    "categories": [
+      "learning",
+      "manipulation",
+      "datasets"
+    ],
+    "tags": [
+      "Imitation learning",
+      "Datasets",
+      "Python"
+    ],
+    "description": "Robot learning tools, datasets and policies. A supporting embodied AI resource; hardware support is project-specific.",
+    "descriptionTh": "เครื่องมือ Dataset และ Policy สำหรับ Robot Learning เป็นแหล่งข้อมูล Embodied AI ที่เกี่ยวข้อง การรองรับฮาร์ดแวร์ขึ้นกับโครงการ",
+    "source": "upstream",
+    "owner": "huggingface",
+    "url": "https://github.com/huggingface/lerobot",
+    "upstream": "https://github.com/huggingface/lerobot",
+    "license": "Apache-2.0",
+    "verifiedOn": "2026-10-10",
+    "key": "huggingface/lerobot"
+  },
+  {
     "id": "leggedrobotics-rsl_rl",
     "key": "leggedrobotics/rsl_rl",
     "title": "RSL RL",
     "description": "Learning-algorithm implementations used in robotics training workflows.",
     "descriptionTh": "อัลกอริทึมการเรียนรู้สำหรับเวิร์กโฟลว์ฝึกหุ่นยนต์",
     "categories": [
-      "learning"
+      "learning",
+      "algorithms"
     ],
     "tags": [
       "RL",
@@ -85,28 +111,6 @@
     "verifiedOn": "2026-10-10"
   },
   {
-    "id": "kscalelabs-ksim",
-    "key": "kscalelabs/ksim",
-    "title": "KSim",
-    "description": "MuJoCo / JAX reinforcement-learning tools for humanoid tasks.",
-    "descriptionTh": "เครื่องมือ RL บน MuJoCo / JAX สำหรับงาน Humanoid",
-    "categories": [
-      "learning"
-    ],
-    "tags": [
-      "Humanoid",
-      "MuJoCo",
-      "JAX",
-      "RL"
-    ],
-    "source": "upstream",
-    "owner": "kscalelabs",
-    "url": "https://github.com/kscalelabs/ksim",
-    "upstream": "https://github.com/kscalelabs/ksim",
-    "license": "MIT",
-    "verifiedOn": "2026-10-10"
-  },
-  {
     "id": "ARISE-Initiative-robomimic",
     "key": "ARISE-Initiative/robomimic",
     "title": "robomimic",
@@ -130,26 +134,71 @@
     "verifiedOn": "2026-10-10"
   },
   {
-    "id": "huggingface-lerobot",
-    "title": "LeRobot",
+    "id": "kscalelabs-ksim",
+    "key": "kscalelabs/ksim",
+    "title": "KSim",
+    "description": "MuJoCo / JAX reinforcement-learning tools for humanoid tasks.",
+    "descriptionTh": "เครื่องมือ RL บน MuJoCo / JAX สำหรับงาน Humanoid",
     "categories": [
-      "learning",
-      "manipulation",
-      "datasets"
+      "learning"
     ],
     "tags": [
-      "Imitation learning",
-      "Datasets",
-      "Python"
+      "Humanoid",
+      "MuJoCo",
+      "JAX",
+      "RL"
     ],
-    "description": "Robot learning tools, datasets and policies. A supporting embodied AI resource; hardware support is project-specific.",
-    "descriptionTh": "เครื่องมือ Dataset และ Policy สำหรับ Robot Learning เป็นแหล่งข้อมูล Embodied AI ที่เกี่ยวข้อง การรองรับฮาร์ดแวร์ขึ้นกับโครงการ",
     "source": "upstream",
-    "owner": "huggingface",
-    "url": "https://github.com/huggingface/lerobot",
-    "upstream": "https://github.com/huggingface/lerobot",
-    "license": "Apache-2.0",
-    "verifiedOn": "2026-10-10",
-    "key": "huggingface/lerobot"
+    "owner": "kscalelabs",
+    "url": "https://github.com/kscalelabs/ksim",
+    "upstream": "https://github.com/kscalelabs/ksim",
+    "license": "MIT",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "isaac-sim-isaaclab-arena",
+    "key": "isaac-sim/IsaacLab-Arena",
+    "title": "Isaac Lab Arena",
+    "description": "Composable simulation tasks and policy evaluation built around Isaac Lab.",
+    "descriptionTh": "ระบบประกอบงานจำลองและประเมิน Policy บน Isaac Lab",
+    "tags": [
+      "Isaac Lab",
+      "Policy evaluation",
+      "Benchmarks"
+    ],
+    "categories": [
+      "isaac",
+      "learning",
+      "research"
+    ],
+    "source": "upstream",
+    "owner": "isaac-sim",
+    "url": "https://github.com/isaac-sim/IsaacLab-Arena",
+    "upstream": "https://github.com/isaac-sim/IsaacLab-Arena",
+    "license": "See project notices",
+    "verifiedOn": "2026-10-10"
+  },
+  {
+    "id": "dlr-rm-stable-baselines3",
+    "key": "DLR-RM/stable-baselines3",
+    "title": "Stable-Baselines3",
+    "description": "PyTorch reinforcement-learning implementations, including PPO, SAC and TD3; supply a compatible task environment.",
+    "descriptionTh": "อัลกอริทึม RL บน PyTorch เช่น PPO, SAC และ TD3 ต้องเตรียม Environment ที่เข้ากันได้",
+    "tags": [
+      "RL",
+      "PPO",
+      "SAC",
+      "TD3"
+    ],
+    "categories": [
+      "algorithms",
+      "learning"
+    ],
+    "source": "upstream",
+    "owner": "DLR-RM",
+    "url": "https://github.com/DLR-RM/stable-baselines3",
+    "upstream": "https://github.com/DLR-RM/stable-baselines3",
+    "license": "MIT",
+    "verifiedOn": "2026-10-10"
   }
 ]
