@@ -1,7 +1,7 @@
 <p align="center"><img src="assets/ssrobotics-logo.jpg" alt="SSRobotics — original logo by SSRobotic" width="240"></p>
 
 <h1 align="center">🧠 Robot Learning</h1>
-<p align="center"><b>SSRobotics · Engineering Resource Directory</b></p>
+<p align="center"><b>SSRobotics · Source Code Collection</b></p>
 
 <p align="center">
   <a href="https://ssrobotic.github.io/humanoid-robot-hub/"><img src="https://img.shields.io/badge/Resources-9-f28c28?style=flat-square" alt="9 curated resources"></a>
@@ -31,6 +31,23 @@ Curated by **SSRobotic — Robotics Engineer & Open-source Curator**. This repos
 | [KSim](https://github.com/kscalelabs/ksim) | MuJoCo / JAX reinforcement-learning tools for humanoid tasks. | Humanoid, MuJoCo, JAX | [kscalelabs](https://github.com/kscalelabs/ksim) |
 | [Isaac Lab Arena](https://github.com/isaac-sim/IsaacLab-Arena) | Composable simulation tasks and policy evaluation built around Isaac Lab. | Isaac Lab, Policy evaluation, Benchmarks | [isaac-sim](https://github.com/isaac-sim/IsaacLab-Arena) |
 | [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3) | PyTorch reinforcement-learning implementations, including PPO, SAC and TD3; supply a compatible task environment. | RL, PPO, SAC | [DLR-RM](https://github.com/DLR-RM/stable-baselines3) |
+
+## 📦 Code & models in this repository
+
+**109 tracked upstream files** — เปิดโฟลเดอร์ด้านล่างเพื่อดูโค้ดจริง โมเดล และตัวอย่างต้นฉบับ
+
+| Project files | Files | Pinned source | License / notices |
+| --- | ---: | --- | --- |
+| [leggedrobotics/rsl_rl](projects/rsl_rl) | 109 | [`a11f6792f11b`](https://github.com/leggedrobotics/rsl_rl/tree/a11f6792f11b17cc76f05be2273c7b8a84095e93) | [LICENSE](projects/rsl_rl/LICENSE) |
+
+[Source manifest](source-manifest.json) records commits, file counts, Git LFS pointers and external submodules. [Per-file manifests](source-manifests/) record original Git blob hashes. `projects/` keeps upstream code, README files, licenses and notices; SSRobotics supplies the organization and guides.
+
+```bash
+git clone --depth 1 https://github.com/SSRobotic/humanoid-robot-learning.git
+cd humanoid-robot-learning
+```
+
+Open the imported project README for its dependencies, build instructions and supported robot/simulator versions. Each snapshot is collected independently; these projects have not been validated as one combined runnable stack.
 
 ## 🚀 Start here
 

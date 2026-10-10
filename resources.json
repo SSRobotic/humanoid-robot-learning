@@ -42,7 +42,15 @@
     "upstream": "https://github.com/isaac-sim/IsaacLab",
     "license": "BSD-3-Clause",
     "verifiedOn": "2026-10-10",
-    "key": "isaac-sim/IsaacLab"
+    "key": "isaac-sim/IsaacLab",
+    "localCopies": [
+      {
+        "repository": "humanoid-isaac-sim",
+        "url": "https://github.com/SSRobotic/humanoid-isaac-sim/tree/main/projects/IsaacLab",
+        "commit": "b0542fe2d45bf91c4e1d9ef6952b9c709c80b4e8",
+        "fileCount": 1993
+      }
+    ]
   },
   {
     "id": "huggingface-lerobot",
@@ -87,7 +95,15 @@
     "url": "https://github.com/leggedrobotics/rsl_rl",
     "upstream": "https://github.com/leggedrobotics/rsl_rl",
     "license": "NOASSERTION",
-    "verifiedOn": "2026-10-10"
+    "verifiedOn": "2026-10-10",
+    "localCopies": [
+      {
+        "repository": "humanoid-robot-learning",
+        "url": "https://github.com/SSRobotic/humanoid-robot-learning/tree/main/projects/rsl_rl",
+        "commit": "a11f6792f11b17cc76f05be2273c7b8a84095e93",
+        "fileCount": 109
+      }
+    ]
   },
   {
     "id": "leggedrobotics-legged_gym",
@@ -131,7 +147,15 @@
     "url": "https://github.com/ARISE-Initiative/robomimic",
     "upstream": "https://github.com/ARISE-Initiative/robomimic",
     "license": "MIT",
-    "verifiedOn": "2026-10-10"
+    "verifiedOn": "2026-10-10",
+    "localCopies": [
+      {
+        "repository": "humanoid-manipulation",
+        "url": "https://github.com/SSRobotic/humanoid-manipulation/tree/main/projects/robomimic",
+        "commit": "d309eaecc18acf4152a830a895a6984b8ac71b05",
+        "fileCount": 201
+      }
+    ]
   },
   {
     "id": "kscalelabs-ksim",
@@ -140,7 +164,8 @@
     "description": "MuJoCo / JAX reinforcement-learning tools for humanoid tasks.",
     "descriptionTh": "เครื่องมือ RL บน MuJoCo / JAX สำหรับงาน Humanoid",
     "categories": [
-      "learning"
+      "learning",
+      "research"
     ],
     "tags": [
       "Humanoid",
@@ -153,7 +178,15 @@
     "url": "https://github.com/kscalelabs/ksim",
     "upstream": "https://github.com/kscalelabs/ksim",
     "license": "MIT",
-    "verifiedOn": "2026-10-10"
+    "verifiedOn": "2026-10-10",
+    "localCopies": [
+      {
+        "repository": "humanoid-research",
+        "url": "https://github.com/SSRobotic/humanoid-research/tree/main/projects/ksim",
+        "commit": "52265b581b7268758a2cf77234c70e2559087365",
+        "fileCount": 87
+      }
+    ]
   },
   {
     "id": "isaac-sim-isaaclab-arena",

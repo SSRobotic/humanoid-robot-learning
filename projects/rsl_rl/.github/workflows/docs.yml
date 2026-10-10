@@ -1,0 +1,79 @@
+name: Docs
+
+on:
+  push:
+    branches:
+      - main
+      - extras
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: ${{ github.event_name == 'pull_request' && format('docs-{0}', github.ref) || 'pages' }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Checkout PR
+        if: github.event_name == 'pull_request'
+        uses: actions/checkout@v4
+        with:
+          path: pr
+
+      - name: Build PR docs
+        if: github.event_name == 'pull_request'
+        run: |
+          pip install -r pr/docs/requirements.txt
+          sphinx-build -b html pr/docs _site
+
+      - name: Checkout main
+        if: github.event_name != 'pull_request'
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: main
+
+      - name: Checkout extras
+        if: github.event_name != 'pull_request'
+        uses: actions/checkout@v4
+        with:
+          ref: extras
+          path: extras
+
+      - name: Build main and extras docs
+        if: github.event_name != 'pull_request'
+        run: |
+          pip install -r main/docs/requirements.txt
+          sphinx-build -b html main/docs _site
+          pip install -r extras/docs/requirements.txt
+          sphinx-build -b html extras/docs _site/extras
+
+      - name: Upload Pages artifact
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
